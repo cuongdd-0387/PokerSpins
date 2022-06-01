@@ -1,0 +1,10 @@
+20220530 :
+- Rename Prefab from GameManager to ReactBridgePlugin
+- Add method SetAuth (call from Frontend)
+- Add ReadyToPlay when game is ready
+- Add EndgameResult when game is end, please sent score to Frontend.
+- Remove API
+20220524 :
+- Api Endgame :  
+ + Request : remove turnId param.
+ + Response : Send all data to front end.
